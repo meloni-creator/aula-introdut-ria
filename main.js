@@ -26,3 +26,10 @@ audioStart.play();
     gameInterval = setInterval(gameLoop, 10);
 }
 };
+
+//função para reiniciar o jogo
+
+const restartGame = () => {
+    pipe.classList.add("pipe-animation");
+    pipe.style.left = '';
+}
